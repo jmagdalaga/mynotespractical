@@ -1,0 +1,68 @@
+/* CSS for Notes Component */
+.notes-container {
+  margin: 20px auto; /* Center the container horizontally */
+  width: 200px; /* Set width of the container */
+  height: 500px; /* Set height of the container */
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  background-color: #87CEEB; /* Light orange background color for each note */
+  border: 3px solid black; /* Black border around each note */
+  border-radius: 5px; /* Rounded corners for the note */
+  padding: 10px; /* Padding inside each note */
+  margin-bottom: 10px; /* Add space between each note */
+}
+
+.note-content {
+  font-size: 16px; /* Font size for the note content */
+  color: #264653; /* Dark blue text color for the note content */
+  line-height: 1.5; /* Line height for better readability */
+  font-weight: bold;
+}
+.user-details {
+  margin-bottom: 20px;
+  text-align: end;
+}
+
+.user-details p {
+  margin: 0;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #1e90ff;
+  padding: 20px 40px; /* Add more padding around the navbar */
+  display: flex;
+  justify-content: space-between; /* Align items evenly */
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+button {
+  background-color: #1e90ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e90ff;
+}
